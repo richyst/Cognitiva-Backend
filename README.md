@@ -1,7 +1,7 @@
 #  Proyecto Cognitiva
 Este proyecto fue desarrollado con Flask.
 
-##Servidor de desarrollo
+## Servidor de desarrollo
 Para poder correr el servidor de desarrollo se necesitan tener instaladas las siguientes dependencias:
 
 - flask
