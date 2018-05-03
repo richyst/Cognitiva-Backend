@@ -8,7 +8,7 @@ class Modelo:
  #'Phrases1':'Daily events', 'Phrases2':'Loss of interest', 'Phrases3':'Borrowed stuff', 'Phrases4':'Cheating in school', 'Punctuality':'i am often early',
  #'Lying':'everytime it suits me', 'Important1':'Responding to a serious letter', 'Important2':'Assertiveness', 'Important3':'Interests or hobbies',
  #'Internet usage':'few hours a day'}
-    def predict(inputdata):
+    def predict(self, inputdata):
         import pandas as pd
         from sklearn.ensemble import RandomForestClassifier
         from sklearn import tree
