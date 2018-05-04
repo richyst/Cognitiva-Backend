@@ -14,9 +14,9 @@ class Modelo:
         from sklearn import tree
         from sklearn import preprocessing
         import pickle
-        random_forest = pickle.load(open('random_forest.sav', 'rb'))
-        out_df = pickle.load(open('outputlabels.sav', 'rb'))
-        in_df = pickle.load(open('inputlabels.sav', 'rb'))
+        random_forest = pickle.load(open('./random_forest.sav', 'rb'))
+        out_df = pickle.load(open('./outputlabels.sav', 'rb'))
+        in_df = pickle.load(open('./inputlabels.sav', 'rb'))
 
         label_encoder = preprocessing.LabelEncoder()
         
